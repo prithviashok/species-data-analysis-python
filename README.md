@@ -1,53 +1,116 @@
-Species Data Analysis using Python
-Project Overview
+# Species Data Analysis using Python
 
-This project demonstrates exploratory data analysis (EDA) using Python, Pandas, and Matplotlib.
+## Project Overview
 
-The dataset contains species-related sample data including:
+This project demonstrates Exploratory Data Analysis (EDA) using Python, Pandas, and Matplotlib.
 
-Species ID
-Site/Plot ID
-Weight
-Sex
+The dataset contains species sample data including:
+- Species ID
+- Site/Plot ID
+- Weight
+- Sex
 
-The project performs:
+The analysis includes:
+- Data inspection
+- Missing value analysis
+- Statistical summaries
+- GroupBy operations
+- Data visualization
 
-Data inspection
-Statistical summaries
-Missing value analysis
-Grouping and aggregation
-Data visualization
-Technologies Used
-Python
-Pandas
-Matplotlib
-Features
-Data Analysis
-Display first and last records
-Generate descriptive statistics
-Check data types
-Identify missing values
-Count unique species and sites
-Group and summarize weight data
-Data Visualization
-Species sample count bar chart
-Average weight per site line graph
-Male vs female distribution chart
-Stacked bar chart of weight by sex per site
-Project Structure
-data/           -> Dataset files
-scripts/        -> Python analysis scripts
-images/         -> Generated visualizations
+---
 
+## Technologies Used
 
-How to Run
-pip install pandas matplotlib
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```plaintext
+species-data-analysis-python/
+│
+├── data/
+│   └── data.csv
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb
+│
+├── scripts/
+│   └── species_analysis.py
+│
+├── images/
+│   ├── species_distribution.png
+│   ├── average_weight_per_site.png
+│   ├── gender_distribution.png
+│   └── total_weight_by_sex_site.png
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## Features
+
+### Data Analysis
+- Display first and last records
+- Generate descriptive statistics
+- Identify missing values
+- Analyze unique species and sites
+- Summarize weight distribution
+
+### Data Visualization
+- Species distribution chart
+- Average weight per site
+- Gender distribution chart
+- Stacked weight comparison by site
+
+---
+
+## Sample Visualizations
+
+### Species Distribution
+
+(Add screenshot here)
+
+### Average Weight Across Sites
+
+(Add screenshot here)
+
+---
+
+## How to Run
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Script
+
+```bash
 python scripts/species_analysis.py
-Learning Outcomes
+```
+
+---
+
+## Learning Outcomes
 
 Through this project, I learned:
+- Data analysis using Pandas
+- Data visualization using Matplotlib
+- GroupBy operations
+- Handling missing values
+- Exploratory Data Analysis workflow
 
-Data cleaning and exploration
-GroupBy operations in Pandas
-Data visualization using Matplotlib
-Basic exploratory data analysis workflow
+---
+
+## Author
+
+Prithvi Ashok

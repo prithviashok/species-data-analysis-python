@@ -38,9 +38,7 @@ Project Structure
 data/           -> Dataset files
 scripts/        -> Python analysis scripts
 images/         -> Generated visualizations
-Sample Visualizations
 
-(Add screenshots of graphs here later)
 
 How to Run
 pip install pandas matplotlib
